@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.5;
+  background-color: #fff;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+    .logo{
+        width: 82px;
+    }
+
+.nav_li{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    /* width: 100vw; */
+}
+.nav_li ul{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 100vw 0 80px;
+}
+    .nav_li ul li{
+        /* height: auto;
+        width: auto; */
+        margin: 0 30px;
+    }
+
